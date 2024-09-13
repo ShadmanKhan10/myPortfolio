@@ -1,0 +1,69 @@
+.navbar-container {
+  border: 2px solid black;
+  height: 3.5vw;
+  display: flex;
+  align-items: center;
+}
+.portfolio-logo-container {
+  width: 15%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid red; */
+}
+.code-logo-container {
+  /* border: 2px solid green; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-left: 0.5vw; */
+}
+.portfolio-logo {
+  height: 50%;
+  width: 3vw;
+  object-fit: contain;
+}
+.portfolio-logo-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2vw;
+  /* font-size: 2rem; */
+  /* border: 2px solid blue; */
+  width: 80%;
+  height: 100%;
+}
+.nav-items-container {
+  /* border: 2px solid green; */
+  list-style: none;
+  height: 100%;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5vw;
+  /* font-size: 1.5rem; */
+  gap: 3vw;
+}
+.social-media-icons-container {
+  /* border: 2px solid blue; */
+  height: 100%;
+  width: 15%;
+}
+.social-media-icons {
+  /* border: 2px solid yellow; */
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 1vw;
+  /* padding-right: 2vw;
+  box-sizing: border-box; */
+}
+.social-media-icon {
+  height: 50%;
+  width: 3vw;
+  object-fit: contain;
+}
