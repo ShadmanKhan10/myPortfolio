@@ -104,6 +104,17 @@
   object-fit: contain;
 }
 
+.mobileMenu-container {
+  /* display: none; */
+  border: 2px solid red;
+  width: 65vw;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: white;
+}
+
 @media only screen and (orientation: portrait) {
   .navbar-container {
     height: 10vw;
@@ -147,4 +158,8 @@
   .nav-items-container {
     display: none;
   }
+  /* .mobileMenu-container {
+    display: none;
+    background-color: green;
+  } */
 }

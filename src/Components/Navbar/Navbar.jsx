@@ -1,10 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Navbar.css";
 import instaIcon from "../../assets/instagram.png";
 import code from "../../assets/code.png";
 import hamburger from "../../assets/hamburger.png";
 
 function Navbar() {
+  const [isMobileView, setIsMobileView] = useState(false);
+
+  const showMobileMenus = () => {
+    setIsMobileView(true);
+  };
   return (
     <>
       <div className="navbar-container">
@@ -22,7 +27,12 @@ function Navbar() {
           {/* <li className="nav-items">TESTIMONIALS</li> */}
         </ul>
         <div className="hamburger-icon-container">
-          <img src={hamburger} alt="menu" className="hamburger-image" />
+          <img
+            onClick={showMobileMenus}
+            src={hamburger}
+            alt="menu"
+            className="hamburger-image"
+          />
         </div>
         <div className="social-media-icons-container">
           <div className="social-media-icons">
@@ -44,6 +54,17 @@ function Navbar() {
           </div>
         </div>
       </div>
+      {isMobileView && (
+        <div className="mobileMenu-container">
+          <h1
+            onClick={() => {
+              setIsMobileView(false);
+            }}
+          >
+            Showing Mobile Menus
+          </h1>
+        </div>
+      )}
     </>
   );
 }
