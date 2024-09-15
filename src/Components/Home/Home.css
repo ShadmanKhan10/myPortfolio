@@ -1,0 +1,101 @@
+@font-face {
+  font-family: "Satoshi-Variable";
+  src: url("../../assets/Satoshi-Variable.woff") format("woff");
+  font-weight: 300 900;
+  font-display: swap;
+  font-style: normal;
+}
+
+.home-container {
+  /* border: 2px solid green; */
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+}
+.home-hero-container {
+  /* border: 2px solid red; */
+  height: 90%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.profile-pic-container {
+  /* border: 2px solid yellow; */
+  width: 30%;
+  max-height: 68%;
+  border-radius: 50%;
+  margin-left: 3vw;
+  margin-top: 4vw;
+  /* box-shadow: -1px -1px 25px #fec576; */
+}
+.profile-pic {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.hero-text-container {
+  /* border: 2px solid white; */
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.hero-text {
+  color: white;
+  font-size: 5vw;
+  margin: 3vw;
+  padding: 0;
+}
+.name {
+  font-family: "Satoshi-Variable";
+  color: #fec576;
+  font-weight: 900;
+}
+.hero-button-container {
+  /* border: 2px solid white; */
+  margin-left: 3vw;
+  height: 3.5vw;
+  display: flex;
+  gap: 2vw;
+}
+.call-to-action-button {
+  height: 100%;
+  width: 20%;
+  border: none;
+  border-radius: none;
+  cursor: pointer;
+  font-size: 1.2vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.call-to-action-button1 {
+  height: 100%;
+  width: 20%;
+  border: 2px solid #fec576;
+  border-radius: none;
+  cursor: pointer;
+  font-size: 1.2vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  color: #fec576;
+}
+.hero-icons-container {
+  /* border: 2px solid white; */
+  margin-left: 3vw;
+  margin-top: 1vw;
+  height: 3.5vw;
+  display: flex;
+  align-items: center;
+  gap: 2vw;
+}
+
+.hero-skills-icon {
+  height: 50%;
+  width: 3vvw;
+  object-fit: contain;
+}
