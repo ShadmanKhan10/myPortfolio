@@ -22,10 +22,13 @@
 .profile-pic-container {
   /* border: 2px solid yellow; */
   width: 30%;
-  max-height: 68%;
-  border-radius: 50%;
+  max-height: 100%;
+  /* border-radius: 50%; */
   margin-left: 3vw;
   margin-top: 4vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   /* box-shadow: -1px -1px 25px #fec576; */
 }
 .profile-pic {
@@ -70,6 +73,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #fec576;
 }
 .call-to-action-button1 {
   height: 100%;
@@ -96,6 +100,84 @@
 
 .hero-skills-icon {
   height: 50%;
-  width: 3vvw;
+  width: 3vw;
   object-fit: contain;
+}
+
+@media only screen and (orientation: portrait) {
+  .home-hero-container {
+    /* border: 2px solid red; */
+    flex-direction: column;
+    height: 100%;
+  }
+  .profile-pic-container {
+    /* border: 2px solid green; */
+    width: 100%;
+    height: 60%;
+    margin: 0;
+  }
+
+  .profile-pic {
+    border-radius: 50%;
+    width: 60%;
+    height: 60vw;
+    object-fit: cover;
+  }
+
+  .hero-text-container {
+    /* border: 2px solid blue; */
+    width: 100%;
+    height: 50%;
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+  }
+  .hero-text {
+    color: white;
+    font-size: 8vw;
+  }
+  .hero-button-container {
+    /* border: 2px solid white; */
+    margin-left: 3vw;
+    height: 10vw;
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+  }
+  .call-to-action-button {
+    width: 35%;
+    font-size: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fec576;
+  }
+  .call-to-action-button1 {
+    width: 35%;
+    font-size: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.3vw solid #fec576;
+  }
+  .hero-icons-container {
+    /* border: 2px solid white; */
+    /* width: 100%; */
+    margin-left: 0;
+    margin-top: 1.5vw;
+    height: 15vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6vw;
+  }
+
+  .hero-skills-icon {
+    height: 50%;
+    width: 7vw;
+    object-fit: contain;
+  }
 }

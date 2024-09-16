@@ -20,19 +20,7 @@ function Home() {
               Hi, I’m <span className="name">Shadman Khan</span>, a front-end
               developer.
             </h1>
-            {/* <p
-              style={{
-                color: "white",
-                margin: "0",
-                padding: "0",
-                position: "relative",
-                left: "3vw",
-                top: "-2vw",
-                fontSize: "1.5vw",
-              }}
-            >
-              Turning your vision into Responsive design!
-            </p> */}
+           
             <div className="hero-button-container">
               <button className="call-to-action-button">Download Resume</button>
               <button className="call-to-action-button1">Contact Me</button>
