@@ -1,0 +1,186 @@
+.about-container {
+  background-color: black;
+  /* border: 2px solid red; */
+}
+.main-about-heading {
+  padding: 0;
+  margin: 0;
+  color: #fec576;
+  text-align: center;
+  font-family: "Satoshi-Variable";
+  font-size: 5vw;
+}
+.about-me-content-introduction {
+  width: 80%;
+  /* border: 2px solid yellow; */
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 2vw;
+  z-index: 1;
+}
+.about-me-gif {
+  width: 40%;
+  height: 25vw;
+  object-fit: contain;
+  mix-blend-mode: darken;
+}
+.about-me-description {
+  color: white;
+  padding: 0;
+  margin: 1vw;
+  font-size: 1.8vw;
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: center;
+}
+.about-me-content-education {
+  width: 80%;
+  /* border: 2px solid yellow; */
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 2vw;
+  z-index: 1;
+}
+.about-me-college {
+  /* border-radius: 2vw; */
+  border: 1vw solid #fec576;
+  width: 40%;
+  height: 20vw;
+  object-fit: contain;
+}
+.about-me-college-description {
+  /* border: 2px solid red; */
+  color: white;
+  padding: 0;
+  margin: 1vw;
+  font-size: 1.8vw;
+  display: flex;
+  align-items: center;
+}
+.about-me-content-fist {
+  width: 80%;
+  /* border: 2px solid yellow; */
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 2vw;
+  z-index: 1;
+}
+.fist-members-container {
+  /* border-right: 2px solid #fec576;
+  border-top: 2px solid #fec576; */
+  width: 40%;
+  height: 40%;
+  padding: 1.5vw;
+  box-sizing: border-box;
+  box-shadow: 0.5vw 0.5vw 0.5vw #fec576;
+  margin-bottom: 2vw;
+}
+
+.fist-member-first-row {
+  display: flex;
+  gap: 1vw;
+  justify-content: start;
+  align-items: center;
+  /* border: 2px solid white; */
+}
+.fist-member-second-row {
+  display: flex;
+  gap: 1vw;
+  justify-content: end;
+  align-items: center;
+  /* border: 2px solid white; */
+}
+.fist-member-third-row {
+  display: flex;
+  gap: 1vw;
+  justify-content: start;
+  align-items: center;
+  /* border: 2px solid white; */
+}
+.fist-member-fourth-row {
+  display: flex;
+  gap: 1vw;
+  justify-content: end;
+  align-items: center;
+  /* border: 2px solid white; */
+}
+
+.fist-member {
+  height: 4vw;
+  width: 4vw;
+  object-fit: contain;
+  /* border: 1px solid #fec576; */
+}
+.fist-member-name {
+  color: white;
+  font-size: 1.8vw;
+}
+.fist-description-container {
+  width: 55%;
+  color: white;
+  padding: 0;
+  margin: 1vw;
+  font-size: 1.8vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border: 2px solid red; */
+}
+.ul-fist {
+  padding: 1.5vw;
+  margin: 1vw;
+  box-sizing: border-box;
+}
+.fist-list {
+  margin-bottom: 1vw;
+}
+.about-me-content-interests {
+  width: 80%;
+  /* border: 2px solid yellow; */
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2vw;
+  z-index: 1;
+}
+.intest-heading {
+  color: #fec576;
+  font-size: 1.8vw;
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+}
+.interests-icon-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.interest-icon {
+  width: 3vw;
+  height: 3vw;
+  object-fit: contain;
+}
+.icon-containing-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1vw;
+  margin: 1vw;
+}
+.interest-text {
+  color: #fec576;
+  padding: 0;
+  margin: 0;
+  font-size: 1vw;
+}
