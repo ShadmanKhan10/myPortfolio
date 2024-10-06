@@ -5,6 +5,8 @@ import freelancer from "../../assets/freelancer.png";
 import music from "../../assets/music.png";
 import meeting from "../../assets/meeting.png";
 import support from "../../assets/support.png";
+import profilePic from "../../assets/profilePic.jpg";
+import raj from "../../assets/raj.jpg";
 import "./About.css";
 
 export default function About() {
@@ -39,7 +41,7 @@ export default function About() {
         <div className="about-me-content-fist">
           <div className="fist-members-container">
             <div className="fist-member-first-row">
-              <img className="fist-member" src={member} alt="member" />
+              <img className="fist-member" src={profilePic} alt="member" />
               <p className="fist-member-name">Shadman Khan</p>
             </div>
             <div className="fist-member-second-row">
@@ -47,7 +49,7 @@ export default function About() {
               <p className="fist-member-name">Md. Sami Adnan</p>
             </div>
             <div className="fist-member-third-row">
-              <img className="fist-member" src={member} alt="member" />
+              <img className="fist-member" src={raj} alt="member" />
               <p className="fist-member-name">G. Raj Kumar</p>
             </div>
             <div className="fist-member-fourth-row">

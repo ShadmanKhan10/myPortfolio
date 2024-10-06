@@ -1,0 +1,106 @@
+.contact-container {
+  background-color: black;
+}
+
+.contact-heading-text {
+  text-align: center;
+  color: #fec576;
+  font-family: "Satoshi-Variable";
+  font-size: 5vw;
+  padding: 0;
+  margin: 0;
+}
+.contact-content {
+  display: flex;
+  justify-content: space-between;
+}
+.contact-content-left {
+  /* border: 2px solid #fec576; */
+  width: 50%;
+  height: 30vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-content-right {
+  /* border: 2px solid #fec576; */
+  width: 50%;
+  height: 30vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-gif {
+  width: 80%;
+  height: 70%;
+  object-fit: cover;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  gap: 0.5vw;
+}
+.input-div {
+  /* border: 2px solid white; */
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.input-img {
+  height: 100%;
+  width: 2.5vw;
+  object-fit: contain;
+  padding: 0.3vw;
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.message-img {
+  height: 100%;
+  width: 2.5vw;
+  object-fit: contain;
+  padding: 0.3vw;
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.input-field {
+  padding-left: 3.5vw;
+  box-sizing: border-box;
+  width: 100%;
+  height: 2.8vw;
+  border: none;
+  outline: none;
+  font-size: 1.17vw;
+  background-color: #fec576;
+}
+.message-field {
+  padding-left: 3.5vw;
+  box-sizing: border-box;
+  width: 100%;
+  height: 5.4vw;
+  border: none;
+  outline: none;
+  font-size: 1.17vw;
+  background-color: #fec576;
+  font-family: inherit;
+}
+.submit-btn {
+  text-align: center;
+  height: 2.8vw;
+  border: none;
+  border-radius: none;
+  font-size: 1.17vw;
+  background-color: rgb(83, 111, 210);
+  color: black;
+  cursor: pointer;
+}
+.loading {
+  height: 2vw;
+  width: 2vw;
+  object-fit: contain;
+}

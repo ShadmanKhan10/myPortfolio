@@ -113,9 +113,10 @@
 }
 
 .fist-member {
+  border-radius: 50%;
   height: 4vw;
   width: 4vw;
-  object-fit: contain;
+  object-fit: cover;
   /* border: 1px solid #fec576; */
 }
 .fist-member-name {
