@@ -104,3 +104,56 @@
   width: 2vw;
   object-fit: contain;
 }
+@media only screen and (orientation: portrait) {
+  .contact-content {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .contact-content-left {
+    height: auto;
+    width: 100%;
+    align-items: flex-start;
+    margin-bottom: 3vw;
+  }
+  .contact-content-right {
+    /* border: 2px solid #fec576; */
+    width: 80%;
+    height: 40vw;
+  }
+  .contact-gif {
+    width: 80%;
+    height: 85%;
+  }
+  .form-container {
+    gap: 1vw;
+  }
+  .input-img {
+    height: 100%;
+    width: 4.5vw;
+  }
+  .input-field {
+    padding-left: 5vw;
+    height: 6vw;
+    font-size: 3vw;
+  }
+  .message-img {
+    height: 100%;
+    width: 4.5vw;
+  }
+  .message-field {
+    padding-left: 5vw;
+    font-size: 3vw;
+    height: 15vw;
+    font-family: "Satoshi-Regular";
+  }
+  .submit-btn {
+    height: 6vw;
+    font-size: 3vw;
+  }
+  .loading {
+    height: 4vw;
+    width: 4vw;
+    object-fit: contain;
+  }
+}

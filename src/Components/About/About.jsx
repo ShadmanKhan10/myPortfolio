@@ -36,7 +36,12 @@ export default function About() {
             journey as a developer is fueled by curiosity and a desire to create
             meaningful experiences through clean, efficient code.
           </p>
-          <img src={school} alt="college" className="about-me-college" />
+          {/* <img src={school} alt="college" className="about-me-college" /> */}
+          <img
+            src="https://t4.ftcdn.net/jpg/05/82/83/99/360_F_582839905_vtfM5kgAB9Lr3IizmvQmxeX0iec4yDfJ.jpg"
+            alt="college"
+            className="about-me-college"
+          />
         </div>
         <div className="about-me-content-fist">
           <div className="fist-members-container">

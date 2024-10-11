@@ -47,7 +47,7 @@
 }
 .about-me-college {
   /* border-radius: 2vw; */
-  border: 1vw solid #fec576;
+  /* border: 1vw solid #fec576; */
   width: 40%;
   height: 20vw;
   object-fit: contain;
@@ -184,4 +184,74 @@
   padding: 0;
   margin: 0;
   font-size: 1vw;
+}
+@media only screen and (orientation: portrait) {
+  .about-me-content-introduction {
+    flex-direction: column;
+    align-items: center;
+    gap: 1vw;
+  }
+  .about-me-gif {
+    width: 80%;
+    height: 40vw;
+  }
+  .about-me-description {
+    margin: 1vw;
+    font-size: 3.7vw;
+    text-align: left;
+  }
+  .about-me-content-education {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 1vw;
+  }
+  .about-me-college {
+    width: 80%;
+    height: 40vw;
+    object-fit: cover;
+    margin: 2vw;
+  }
+  .about-me-college-description {
+    margin: 1vw;
+    font-size: 3.7vw;
+    text-align: left;
+  }
+  .about-me-content-fist {
+    flex-direction: column;
+    gap: 1vw;
+  }
+  .fist-members-container {
+    width: 80%;
+    height: 40%;
+    margin: 2vw;
+  }
+  .fist-member {
+    height: 10vw;
+    width: 10vw;
+  }
+  .fist-member-name {
+    font-size: 3.7vw;
+  }
+  .fist-description-container {
+    width: 100%;
+    padding: 1vw;
+    box-sizing: border-box;
+    font-size: 3.7vw;
+    flex-direction: column;
+  }
+  .intest-heading {
+    font-size: 4vw;
+  }
+  .interests-icon-container {
+    gap: 3vw;
+    margin-bottom: 3vw;
+  }
+  .interest-icon {
+    width: 7vw;
+    height: 7vw;
+  }
+  .interest-text {
+    font-size: 2.5vw;
+    text-align: center;
+  }
 }
